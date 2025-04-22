@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.project {
+    border-left: 5px solid #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Efecto al pasar el mouse sobre los proyectos */
+.project {
+    border-left: 5px solid #333;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Botón interactivo */
+button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #FF5733, #FFC300);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #FFC300, #FF5733);
+    transform: scale(1.1);
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+}
+
+/* Tipografía elegante */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fondo sutil */
+body {
+    background: linear-gradient(to right, #f4f4f4, #eaeaea);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #242582, #553D67);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2F2FA2;
+    color: white;
+    padding: 40px;
+    font-size: 24px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    0% { transform: translateY(-30px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Estilos de secciones */
+section {
+    margin: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+/* Botones interactivos */
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #F64C72, #FF9A8B);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #000000, #0f0);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado con efecto neón */
+header {
+    background-color: #000;
+    color: #0f0;
+    padding: 40px;
+    font-size: 26px;
+    text-shadow: 0px 0px 10px #0f0;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Animación neón */
+@keyframes glow {
+    0% { text-shadow: 0px 0px 5px #0f0; }
+    100% { text-shadow: 0px 0px 15px #0f0; }
+}
+
+/* Botones interactivos */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #000;
+    color: #0f0;
+    border: 2px solid #0f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #0f0;
+}
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tech-btn {
+    background: black;
+    color: #0f0;
+    font-size: 16px;
+    border: 2px solid #0f0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.tech-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #0f0;
+}
+.tech-btn {
+    background: black;
+    color: #0f0;
+    font-size: 16px;
+    border: 2px solid #0f0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-btn img {
+    width: 25px;
+    height: 25px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado elegante */
+header {
+    background-color: #000;
+    color: #ffffff;
+    padding: 40px;
+    font-size: 26px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Secciones */
+section {
+    margin: 20px;
+    padding: 30px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Botones */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(30, 144, 255, 0.3);
+}
+
+/* Links */
+a {
+    color: #1E90FF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h2 {
+    color: #1E90FF;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
